@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/Cikis"
+        android:icon="@drawable/exit"
+        android:orderInCategory="100"
+        android:title="Çıkış Yap"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/IlanOlustur"
+        android:icon="@drawable/kargo"
+        android:orderInCategory="100"
+        android:title="ilan oluştur"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/IlanOlustur2"
+        android:orderInCategory="100"
+        android:title="ilan oluştur"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textViewKullanici"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:text="Yorum Yap"
+        android:textColor="#171c24"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/mavi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Yorumunuz"
+        android:textColor="#171c24"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextYorum"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <RatingBar
+        android:id="@+id/ratingBarYorum"
+        android:layout_width="wrap_content"
+        android:max="5"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonGonder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button"
+        android:padding="5dp"
+        android:text="Yorumu Gönder" />
+
+
+</LinearLayout>
